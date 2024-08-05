@@ -39,7 +39,7 @@ final List<dynamic> list2 = ['apple', 'banana', 'cherry', 10, 20, 30];
   Map<String, dynamic> result2 = linearSearch(list2, target2);
 
   print('Index: ${result2['index']}, Time: ${result2['time']}');
-  // Index: 2, Time: 14 microseconds
+  // Index: 2, Time: some microseconds
 ```
 
 ## Jump Search
@@ -50,9 +50,9 @@ final List<dynamic> list3 = [10, 20, 30, 40, 50, 'apple', 'banana', 'cherry'];
   final Map<String, dynamic> result3 = jumpSearch(list3, target3);
 
   print('Index: ${result3['index']}, Time: ${result3['time']}');
-  // Index: 6, Time: 654 microseconds
+  // Index: 6, Time: some microseconds
 ```
 
 
-# Contributions
+## Contributions
 #### Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.

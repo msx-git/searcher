@@ -1,0 +1,16 @@
+name: searcher
+description: A Dart package that provides implementations for various search algorithms including Binary Search, Linear Search, and Jump Search.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.4.3
+
+# Add regular dependencies here.
+dependencies:
+  tuple: ^2.0.2
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.25.8
